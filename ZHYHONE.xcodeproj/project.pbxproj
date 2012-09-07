@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198A414F15FA4ECD00561A96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198A414E15FA4ECD00561A96 /* UIKit.framework */; };
+		198A415115FA4ECD00561A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198A415015FA4ECD00561A96 /* Foundation.framework */; };
+		198A415315FA4ECD00561A96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198A415215FA4ECD00561A96 /* CoreGraphics.framework */; };
+		198A415915FA4ECD00561A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 198A415715FA4ECD00561A96 /* InfoPlist.strings */; };
+		198A415B15FA4ECD00561A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 198A415A15FA4ECD00561A96 /* main.m */; };
+		198A415F15FA4ECD00561A96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 198A415E15FA4ECD00561A96 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		198A414A15FA4ECD00561A96 /* ZHYHONE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYHONE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		198A414E15FA4ECD00561A96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		198A415015FA4ECD00561A96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		198A415215FA4ECD00561A96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		198A415615FA4ECD00561A96 /* ZHYHONE-Info.plist */ = {isa = PBXFileReference; path = "ZHYHONE-Info.plist"; sourceTree = "<group>"; };
+		198A415815FA4ECD00561A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		198A415A15FA4ECD00561A96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		198A415C15FA4ECD00561A96 /* ZHYHONE-Prefix.pch */ = {isa = PBXFileReference; path = "ZHYHONE-Prefix.pch"; sourceTree = "<group>"; };
+		198A415D15FA4ECD00561A96 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		198A415E15FA4ECD00561A96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		198A414715FA4ECD00561A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A414F15FA4ECD00561A96 /* UIKit.framework in Frameworks */,
+				198A415115FA4ECD00561A96 /* Foundation.framework in Frameworks */,
+				198A415315FA4ECD00561A96 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		198A413F15FA4ECD00561A96 = {
+			isa = PBXGroup;
+			children = (
+				198A415415FA4ECD00561A96 /* ZHYHONE */,
+				198A414D15FA4ECD00561A96 /* Frameworks */,
+				198A414B15FA4ECD00561A96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		198A414B15FA4ECD00561A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				198A414A15FA4ECD00561A96 /* ZHYHONE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		198A414D15FA4ECD00561A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				198A414E15FA4ECD00561A96 /* UIKit.framework */,
+				198A415015FA4ECD00561A96 /* Foundation.framework */,
+				198A415215FA4ECD00561A96 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		198A415415FA4ECD00561A96 /* ZHYHONE */ = {
+			isa = PBXGroup;
+			children = (
+				198A415D15FA4ECD00561A96 /* AppDelegate.h */,
+				198A415E15FA4ECD00561A96 /* AppDelegate.m */,
+				198A415515FA4ECD00561A96 /* Supporting Files */,
+			);
+			path = ZHYHONE;
+			sourceTree = "<group>";
+		};
+		198A415515FA4ECD00561A96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				198A415615FA4ECD00561A96 /* ZHYHONE-Info.plist */,
+				198A415715FA4ECD00561A96 /* InfoPlist.strings */,
+				198A415A15FA4ECD00561A96 /* main.m */,
+				198A415C15FA4ECD00561A96 /* ZHYHONE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		198A414915FA4ECD00561A96 /* ZHYHONE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198A416215FA4ECD00561A96 /* Build configuration list for PBXNativeTarget "ZHYHONE" */;
+			buildPhases = (
+				198A414615FA4ECD00561A96 /* Sources */,
+				198A414715FA4ECD00561A96 /* Frameworks */,
+				198A414815FA4ECD00561A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHYHONE;
+			productName = ZHYHONE;
+			productReference = 198A414A15FA4ECD00561A96 /* ZHYHONE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		198A414115FA4ECD00561A96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = BUAA;
+			};
+			buildConfigurationList = 198A414415FA4ECD00561A96 /* Build configuration list for PBXProject "ZHYHONE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 198A413F15FA4ECD00561A96;
+			productRefGroup = 198A414B15FA4ECD00561A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				198A414915FA4ECD00561A96 /* ZHYHONE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		198A414815FA4ECD00561A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A415915FA4ECD00561A96 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		198A414615FA4ECD00561A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A415B15FA4ECD00561A96 /* main.m in Sources */,
+				198A415F15FA4ECD00561A96 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		198A415715FA4ECD00561A96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198A415815FA4ECD00561A96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		198A416015FA4ECD00561A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		198A416115FA4ECD00561A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		198A416315FA4ECD00561A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHYHONE/ZHYHONE-Prefix.pch";
+				INFOPLIST_FILE = "ZHYHONE/ZHYHONE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		198A416415FA4ECD00561A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHYHONE/ZHYHONE-Prefix.pch";
+				INFOPLIST_FILE = "ZHYHONE/ZHYHONE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198A414415FA4ECD00561A96 /* Build configuration list for PBXProject "ZHYHONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198A416015FA4ECD00561A96 /* Debug */,
+				198A416115FA4ECD00561A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		198A416215FA4ECD00561A96 /* Build configuration list for PBXNativeTarget "ZHYHONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198A416315FA4ECD00561A96 /* Debug */,
+				198A416415FA4ECD00561A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 198A414115FA4ECD00561A96 /* Project object */;
+}
