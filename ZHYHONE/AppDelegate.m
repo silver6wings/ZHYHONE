@@ -22,25 +22,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    /*
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    self.window.rootViewController = [[[RootVC alloc] init] autorelease];
-    self.window.rootViewController.view.backgroundColor = [UIColor blueColor];
     
-    MenuVC * menuVC = [[[MenuVC alloc] init] autorelease];
-    menuVC.view.frame = CGRectMake(0, 0, 1024, 1024);
-    [self.window.rootViewController.view addSubview:menuVC.view];
-     
-    UILabel * lbBETA = [[[UILabel alloc] initWithFrame:CGRectMake(175, 100, 824, 548)] autorelease];
-    lbBETA.backgroundColor = [UIColor clearColor];
-    lbBETA.font = [UIFont boldSystemFontOfSize:256];
-    lbBETA.alpha = 0.2;
-    lbBETA.text = @"BETA";
-    [self.window.rootViewController.view addSubview:lbBETA];
-    */
+    MenuVC *menuVC = [[[MenuVC alloc] init] autorelease];
+    menuVC.view.frame = CGRectMake(0, 20, self.window.frame.size.width, self.window.frame.size.height - 20);
     
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    self.window.rootViewController = [[[MenuVC alloc] init] autorelease];
+    UIViewController *rvc = [[[UIViewController alloc] init] autorelease];
+    rvc.view.frame = CGRectMake(0, 0, self.window.frame.size.width, self.window.frame.size.height);
+    [rvc.view addSubview:menuVC.view];
+    
+    UIView *barView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.window.frame.size.width, 20)];
+    barView.backgroundColor = [UIColor whiteColor];
+    [rvc.view addSubview:barView];
+    
+    self.window.rootViewController = rvc;
      
     [self.window makeKeyAndVisible];
     return YES;

@@ -89,15 +89,6 @@
     [btName setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self.view addSubview:btName];
     
-    // === Debug
-    
-    UILabel * lbBETA = [[[UILabel alloc] initWithFrame:CGRectMake(175, 100, 824, 548)] autorelease];
-    lbBETA.backgroundColor = [UIColor clearColor];
-    lbBETA.font = [UIFont boldSystemFontOfSize:256];
-    lbBETA.alpha = 0.2;
-    lbBETA.text = @"BETA";
-    [self.view addSubview:lbBETA];
-    
     intro = [[[Introduction alloc] initWithType:1] autorelease];
     intro.frame = CGRectMake(0, 0, 1024, 748);
     [self.view addSubview:intro];
